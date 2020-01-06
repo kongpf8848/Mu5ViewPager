@@ -10,8 +10,7 @@
 # Gradle
   ```
  implementation 'com.github.kongpf8848:Mu5ViewPager:1.0.0'
-
-  ```
+ ```
  # 使用 
  
  ### 1.xml中
