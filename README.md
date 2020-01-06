@@ -17,11 +17,11 @@
  
  ### 1.xml中
   ```
-          <com.github.kongpf8848.Mu5ViewPager.Mu5ViewPager
-                        android:id="@+id/mu5ViewPager"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                />
+  <com.github.kongpf8848.Mu5ViewPager.Mu5ViewPager
+	android:id="@+id/viewpager"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	/>
   ```				
                 
  ### 2.实现接口 Mu5Interface
