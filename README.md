@@ -6,22 +6,23 @@
 
 ![Mu5ViewPager](/gif/Mu5ViewPager.gif)
 
-# Demo 
-[Download](https://fir.im/vkx6)
 
 # Gradle
 
 	dependencies {
-		compile 'com.github.JmStefanAndroid:Mu5ViewPager:1.2'
+		    implementation 'com.github.kongpf8848:Mu5ViewPager:1.0.0'
 	}
  
  # 使用 
  
  ### 1.xml中
-            <me.stefan.library.mu5viewpager.Mu5ViewPager
-                android:id="@+id/viewpager"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+  ```
+          <com.github.kongpf8848.Mu5ViewPager.Mu5ViewPager
+                        android:id="@+id/mu5ViewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                />
+  ```				
                 
  ### 2.实现接口 Mu5Interface
  ```
