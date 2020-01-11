@@ -8,13 +8,13 @@
 
 
 # Gradle
-  ```
+  ```groovy
  implementation 'com.github.kongpf8848:Mu5ViewPager:1.0.0'
  ```
  # 使用 
  
  ### 1.xml中
-  ```
+  ```xml
   <com.github.kongpf8848.Mu5ViewPager.Mu5ViewPager
 	android:id="@+id/viewpager"
 	android:layout_width="match_parent"
@@ -23,7 +23,7 @@
   ```				
                 
  ### 2.实现接口 Mu5Interface
- ```
+ ```java
 class MainActivity : AppCompatActivity(), Mu5Interface {
 
     private val handler = Handler(Looper.getMainLooper())
